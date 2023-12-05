@@ -14,8 +14,7 @@ html {
 }
 
 body {
-    margin:0;
-    padding:0;
+    
     text-align: center;
     background:
 radial-gradient(circle farthest-side at 0% 50%,#fb1 23.5%,rgba(240,166,17,0) 0)21px 30px,
@@ -32,9 +31,9 @@ font-weight: bold;
 
 .container {
     padding: 2em 2.5em;
-    margin-left: 5em;
-    margin-right: 5em;
-    background-color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F1f8f3;
     box-shadow: 0 1em 2em #000a;
     border-radius: 0.8em;
     display: flex;
@@ -66,18 +65,28 @@ font-weight: bold;
     opacity: 1;
 }
 
-#tasks {
+.todo {
+    padding: 1.5em;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    box-shadow: 0 1em 2em #000a;
+    border-radius: 0.8em;
     display: flex;
     flex-direction: column;
+    max-width: 200px;
+    width: 100%;
     text-align: center;
-    margin: 0 auto;
-    padding: 2em;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
-#task {
-    max-width: 300px;
-    display: flex;
-    flex-direction: column;
+#taskings {
+    border: 5px;
+    border-radius: ;
+}
 
+.pendings {
+    color: black;
 }
