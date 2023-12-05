@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <div class="title">
+         To-Do List</div>
+</header>
+<body>
+    <form id="new-task-form">
+        <div class="container"><input class="txt" id="new-input-form" type="text" placeholder="Task...">
+    <input id="submit" class="btn" type="button" value="Add Task"></div>
+    </div></form>
+    
+    <div id="tasks">
+        <input id="task" type="text" value="Studyy..." readonly>
+        <div class="actions">
+        <button class="edit">Edit</button>
+        <button class="delete">Delete</button>
+    </div>
+
+
+    
+    <div class="pendings">
+        <p id="pending">You have <span class="count-value">0 </span>task(s) to complete.</p>
+        <p id="error">Your Input cannot be empty!</p>
+    </div>
+    <script class="script" src="script.js"></script>
+</body>
+
+</html>
