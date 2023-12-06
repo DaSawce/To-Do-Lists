@@ -67,6 +67,8 @@ body {
   font-weight: bold;
 }
 
+/* change container from both todo and not todo to make it one container elemetn */
+
 .container {
   padding: 2em 2.5em;
   margin-left: auto;
